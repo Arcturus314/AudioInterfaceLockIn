@@ -1,4 +1,4 @@
-A basic dual-phase lockin implementation for a 2in/2out sound card or audio interface using pyaudio. Tested on a MOTU M2 at 32bits/48kHz sample rate. 
+A basic dual-phase lockin implementation for a 2in/2out sound card or audio interface using pyaudio. Tested on a MOTU M2 at 32bits/48kHz sample rate under ALSA.
 
 Connect CH1 OUT to CH1 IN through a loopback wire and set gains appropriately. CH2 OUT should be the input to the DUT and CH2 IN should be the output of the DUT.
 
